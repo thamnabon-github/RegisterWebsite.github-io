@@ -1,7 +1,8 @@
 let username,password;
 //xhr.send('jsVariable=' + username)
 
-document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC"
+
+document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/"
 
 document.getElementById("SignUp").addEventListener("click", () => {
     username = document.getElementById("username").value;
