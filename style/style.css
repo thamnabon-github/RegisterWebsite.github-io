@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    /*background-color: rgb(91, 93, 121);*/
+    min-height: 100vh;
+    background-attachment: fixed;
+    background: linear-gradient(135deg,rgb(125, 128, 165),rgb(47, 47, 63));
+}
+form{
+    padding: 0;
+
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(73, 74, 88);
+
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+
+    border: 1px solid rgba(255, 255, 255, .5);
+
+    background: none;
+    border: none;
+    box-shadow: none;
+
+    text-align: center;
+    border-radius: 30px;
+    width: 600px;
+}
+.SignUpText{
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input-box input{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    height: 50px;
+    border-radius: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(252, 252, 252, .2);
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.AgreeForm input {
+    accent-color: rgb(255, 255, 255);
+}
+
+/*
+.input-box input:hover{
+    cursor: not-allowed;
+}*/
+
+.icon{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 190px;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+}
+
+.icon-input{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+}
+
+.icon-inputPw{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+}
+
+
+.icon-eyeshow button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 210px;
+    font-size: 15px;
+    user-select: none;
+    visibility: hidden;
+}
+
+.input-box input::placeholder{
+    color: rgb(129, 129, 129);
+}
+
+.AgreeForm{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.SignUpButton .btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 175, 73);
+    border: none;
+    margin-bottom: 25px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.SignUpButton .btn:hover{
+    background-color: rgb(32, 134, 63);
+}
+
+/*
+.btn:hover{
+    width: 505px;
+    height: 52.5px;
+}*/
+
+ul{
+    text-align: left;
+    overflow: hidden;
+    list-style-type: none;
+}
+h1{
+    text-align: left;
+}
+.bar ul{
+    list-style-type: none;
+    background-color:rgb(53, 54, 68);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.bar a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.bar a:hover{
+    cursor: pointer;
+    /*font-size: 110%;*/
+    background-color:rgb(40, 40, 49);
+}
+.bar li{
+    float: left;
+}

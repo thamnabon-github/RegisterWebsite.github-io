@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="bar">
+        <ul>
+            <li><a title="Menu" id="Bar_menu">Menu</a></li>
+            <li><a title="About" id="Bar_about">About</a></li>
+        </ul>
+    </nav>
+
+    <form>
+        <main>
+            <div class="icon">
+                <i class="fa fa-sign-in" aria-hidden="true"></i>
+            </div>
+            <h2 class="SignUpText">Sign Up</h2>
+        </main>
+
+        <div class="input-box">
+            <div class="icon-input">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" maxlength="20" required> 
+        </div>
+
+        <br>
+
+        <div class="input-box">
+            <div class="icon-inputPw">
+                <i class="fa fa-key" aria-hidden="true"></i>
+            </div>
+            <div class="icon-eyeshow">
+                <button type="button" id="eyeshow" class="btn2">
+                    <i id="eyebtnicon" class="fa fa-eye" aria-hidden="true"></i>
+                </button>
+            </div>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" maxlength="20" required>
+        </div>
+
+        <br>
+
+        <div class="AgreeForm">
+            <input id="Agree" type="checkbox" required>
+            <label>I agree to term of Agreement</label>
+        </div>
+
+        <br>
+
+        <div class="SignUpButton">
+            <button type="button" id="SignUp" class="btn">Sign up</button>
+        </div>
+
+        <br>
+    </form>
+</body>
+</html>
+
+<script src="Javascript/script.js"></script>
