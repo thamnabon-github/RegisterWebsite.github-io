@@ -14,7 +14,7 @@ document.getElementById("SignUp").addEventListener("click", () => {
                 //window.location.replace("Sign-Up.html")
                 var PageToSendTo = "server.php?"
                 let xhr = new XMLHttpRequest()
-                xhr.open('POST','./server.php')
+                xhr.open('POST','server.php')
                 xhr.onload = function(e) {
                     console.log(e)
                 }
