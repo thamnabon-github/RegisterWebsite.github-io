@@ -1,8 +1,6 @@
 let username,password;
 //xhr.send('jsVariable=' + username)
 
-document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/"
-
 document.getElementById("SignUp").addEventListener("click", () => {
     username = document.getElementById("username").value;
     password = document.getElementById("password").value;
@@ -14,11 +12,15 @@ document.getElementById("SignUp").addEventListener("click", () => {
         if (password != "") {
             if (document.getElementById("Agree").checked) {
                 //window.location.replace("Sign-Up.html")
-                let newuser = {
-                    "username": username,
-                    "pw":   password
+                var PageToSendTo = "server.php?"
+                let xhr = new XMLHttpRequest()
+                xhr.open('POST','./server.php')
+                xhr.onload = function(e) {
+                    console.log(e)
                 }
-                console.log(newuser["username"],"\n",newuser["pw"])
+                let userData = new FormData(document.querySelector('form'))
+                xhr.send(userData)
+                console.log(userData)
                 alert("Signed up!")
                 usernameInput.disabled = true
                 passwordInput.disabled = true
